@@ -2,6 +2,6 @@
 On a mission to upload as many simple python scripts for students and professionals to refer, contibute and reproduce..
 
 * RandomChoice
-2.SumOfTwoNumbers
-3.StartFile
-4.TextBasedGame
+* SumOfTwoNumbers
+* StartFile
+* TextBasedGame
