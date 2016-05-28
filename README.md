@@ -5,3 +5,5 @@ On a mission to upload as many simple python scripts for students and profession
 * SumOfTwoNumbers
 * StartFile
 * TextBasedGame
+* PythonDictionary
+* WorkingWithFiles
