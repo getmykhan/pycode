@@ -12,7 +12,7 @@ def helpme():
     print("Make a wild guess")
     print("If you want to quit, just type exit and click enter.")
 
-randomm = random.randint(0, 10)
+randomm = random.randint(1, 11)
 while True:
     guess = raw_input("What is the number?> ")
     if guess == "help":
