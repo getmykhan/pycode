@@ -10,3 +10,4 @@ On a mission to upload as many simple python scripts for students and profession
 * ArithmeticOperations
 * SimpleCalculator
 * GuessANumber
+* WorkingWithTimer
