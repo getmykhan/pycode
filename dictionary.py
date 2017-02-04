@@ -25,3 +25,17 @@ print(dict0['Age'], dict0['age'])
 # The key value should be unique, if the same key repeats in the dictionary then, the last key that is assigned wins.
 dict0['name'] = "Michael"
 print(dict0['name'])
+
+#Dictionary Functions and built-in methods.
+
+#To find the lenght of all the elements in the Dictionary
+lengthOf = len(dict0)
+print(lengthOf)
+
+#Returns a string type
+stringOf = str(dict0)
+print(stringOf)
+
+#Result will be the type, i.e : For the below two lines the output will be : class : dict
+typeOf = type(dict0)
+print(typeOf)
