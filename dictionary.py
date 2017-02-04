@@ -59,9 +59,14 @@ dict2 = dict1.copy()
 
 print(dict2)
 
-#fromkeys
+#fromkeys; used to add vale to multiple keys at the same time. Effective.
 
 sequenceOth = ('Number', 'Value', 'Integer' , 'Digits')
 dict2 = dict2.fromkeys(sequenceOth, 10)
 
 print(dict2)
+
+#get(); Very handy function to get the value of a key; if the key is not in the dictionary; it returns none.
+
+print(dict2.get('Number'))
+print(dict2.get('Age')) #will return none.
