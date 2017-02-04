@@ -39,3 +39,14 @@ print(stringOf)
 #Result will be the type, i.e : For the below two lines the output will be : class : dict
 typeOf = type(dict0)
 print(typeOf)
+
+
+#clear(); it will clear all the elements in the dictionary
+
+def clearit(argv1):
+    dict0.clear()
+    if len(dict0) == 0:
+        print("The lenght is %d, which means that that the dictionary has been cleared and that there are no items inside " % len(dict0))
+    else:
+        print("The dictionary has elements")
+clearit(dict0)
