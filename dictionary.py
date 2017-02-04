@@ -50,3 +50,11 @@ def clearit(argv1):
     else:
         print("The dictionary has elements")
 clearit(dict0)
+
+#copy(); To copy 1 dictionary to the other.
+
+dict1 = {"name": "Lola", "Age": 12 }
+#The content of dictionary will be copied and assigned to the dict2 
+dict2 = dict1.copy()
+
+print(dict2)
