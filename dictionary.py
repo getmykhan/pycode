@@ -11,7 +11,7 @@ dict0['School'] = "NA"
 #print (dict0['name'])
 
 for k , v in dict0.items():
-    print (k)
+    print (k, ":", v)
 
 #updating the value
 dict0['Age'] = 23
@@ -19,3 +19,9 @@ dict0['Age'] = 23
 dict0['age'] = 22
 
 print(dict0['Age'], dict0['age'])
+
+# Note dictionary values have no limitations/restrictions.
+
+# The key value should be unique, if the same key repeats in the dictionary then, the last key that is assigned wins.
+dict0['name'] = "Michael"
+print(dict0['name'])
