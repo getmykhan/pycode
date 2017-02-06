@@ -74,3 +74,7 @@ print(dict2.get('Age')) #will return none.
 #keys() # This fuction will return the all the keys in the dictionary
 
 print(dict2.keys())
+
+#values() # It will return all the values in a dictionary
+
+print(dict1.values())
