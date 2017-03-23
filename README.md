@@ -11,3 +11,4 @@ On a mission to upload as many simple python scripts for students and profession
 * SimpleCalculator
 * GuessANumber
 * WorkingWithTimer
+* ReadingAFile
