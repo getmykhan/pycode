@@ -2,6 +2,7 @@ import numpy as np
 from scipy.stats import chisquare
 from scipy import stats
 
+
 s = np.random.uniform(low=0.5, high=13.3, size=(1000,))
 print("**" * int(50))
 print(s)
@@ -22,3 +23,6 @@ print("**" * int(50))
 print(p)
 print("**" * int(50))
 print(chisquare(p))
+
+b_norm = np.random.standard_normal((1000,))
+print(stats.kstest(b_norm, 'norm'))
