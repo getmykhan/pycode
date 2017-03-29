@@ -2,14 +2,14 @@ import numpy as np
 from scipy.stats import chisquare
 from scipy import stats
 
-s = np.random.uniform(-1,0,1000)
+s = np.random.uniform(low=0.5, high=13.3, size=(1000,))
 print("**" * int(50))
 print(s)
 print("**" * int(50))
 print(chisquare(s))
 
 
-n, p = 10, .5  # number of trials, probability of each trial
+n, p = 10, 0.7  # number of trials, probability of each trial
 b = np.random.binomial(n, p, 1000) # result of flipping a coin 10 times, tested 1000 times.
 print("**" * int(50))
 print(b)
