@@ -4,6 +4,7 @@ class NameForm():
 	"""The class will keep track of the employees that are passed"""
 
 	sal_increment = 10
+	
 	def __init__(self, fname, lname, age, sex, salary):
 		self.fname = fname
 		self.lname = lname
@@ -16,9 +17,13 @@ class NameForm():
 		return(name_formatted)
 
 	def salary_increment(self):
-		self.salary = int(self.salary) + sal_increment
+		self.salary = int(self.salary) + self.sal_increment
 		return(self.salary)
 
+	@classmethod
+	def set_class_sal_increment(cls):
+		cls.sal_increment = 100
+			
 
 
 
@@ -32,5 +37,5 @@ if __name__ == '__main__':
 
 
 	emp1 = NameForm(fname, lname, age, sex = sex, salary = salary)
-
-	print(NameForm.__doc__)
+	emp2 = NameForm(fname, lname, age, sex = sex, salary = salary)
+	#print("Salary incremented from {} to {}".format(salary, emp1.salary_increment()))
